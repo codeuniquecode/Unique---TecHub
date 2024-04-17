@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>UniQuE - TecHub</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2c8d038c04.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <header>
+        <!-- place navbar here -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-1 custom-nav" href="#">UniQuE - <span class="text-primary">TecHub</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary fs-4" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fs-4" aria-current="page" href="#about">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fs-4" href="services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item fs-5" href="#services">Software Development</a></li>
+                      <li><a class="dropdown-item fs-5" href="#services">Web Development</a></li>
+                      <li><a class="dropdown-item fs-5" href="#services">Graphic Design</a></li>
+                      <li><a class="dropdown-item fs-5" href="#services">Cloud Computing</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item fs-5" href="#services">SEO</a></li>
+                      <li><a class="dropdown-item fs-5" href="#services">Cyber Security</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item fs-4">
+                    <a class="nav-link active" aria-current="page" href="#teams">Our Teams</a>
+                  </li>
+                  <li class="nav-item fs-4">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+
+        <script>
+            var triggerEl = document.querySelector("#navId a");
+            bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
+        </script>
+
+    </header>
+    <main>
+        <!-- carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="coding.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-light">Discover the Power of Python</h5>
+                  <p>Python's simplicity and versatility make it an ideal choice for beginners and experts .</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="tiktok.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  class="text-warning">Good new's for tiktok users</h5>
+                  <p>Nepal government has announced to unban tiktok soon.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="iphonevision.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none  d-md-block">
+                  <h5  class="text-dark">Iphone Vision pro</h5>
+                  <p>Is this the worst iphone product ever?</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- about -->
+          <div class="container my-5" data-aos="fade-up" data-aos-offset="350" id="about">
+            <h1 class="text-center  border-bottom">About</h1>
+            <div class="row my-5">
+                <div class="col col-lg-6 col-sm-12 col-12">
+                    <h1>Want to know more about us?</h1>
+                    <p class="fs-4 custom-para">UniQuE - <span class="text-primary">TecHub</span>, we are an IT organization that works on IT services as well as provide latest updates and news about technology. With our team members, UniQuE - TecHub have already worked with 1000+ customers and provided them services. Additionally, we have posted about 10,000+ news and updates on our social media.  </p>
+                    <!-- accordion -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Our mission
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fs-5">
+                                To empower individuals and businesses with innovative IT solutions, fostering growth and success in the digital era.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                             Our Vision
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fs-5">
+                                To be the best and a trusted IT organization for the source of insightful technology news and updates, inspiring continuous learning and advancement.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Goals
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fs-5">
+                                Our goal is to use our expertise in IT services to drive digital transformation for our clients, while also keeping our audience informed and engaged through timely and relevant coverage of the latest trends and developments in the ever-evolving world of technology.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="btn btn-primary fs-4 my-4">Know more...</button>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                    <img class="custom-img img-fluid img-thumbnail" src="group.jpg" alt="" srcset="">
+                </div>
+            </div>
+          </div>
+          <!-- services -->
+          <div class="container custom-services my-5 bg-light pb-2" id="services">
+            <h1 class="text-center border-bottom">Services</h1>
+            <div class="row my-5 p-1">
+                <!-- Service 1: Software Development -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" data-aos="fade-right" data-aos-offset="300">
+                        <div class="card-header text-center fs-3">
+                            <i class="fa-solid fa-terminal"></i> Software Development
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                Book Here!
+                              </button>
+                             
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2: SEO -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card bg-primary text-light">
+                        <div class="card-header text-center fs-3">
+                            <i class="fa-brands fa-edge"></i> SEO
+                        </div>
+                        <div class="card-body" data-aos="flip-left" data-aos-offset="300">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                Book Here!
+                              </button>
+                              <div class="modal" id="exampleModal2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title fs-3">Thanks for choosing us</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="fs-4">But sorry, our team is busy. If you want urgent service then leave your info in contact section. Our team will contact us shortly. Thank You.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary fs-4" data-bs-dismiss="modal">OK</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3: Web Development -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" data-aos="fade-left" data-aos-offset="300">
+                        <div class="card-header text-center fs-3">
+                            <i class="fa-solid fa-code"></i> Web Development
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                Book Here!
+                              </button>
+                              <div class="modal" id="exampleModal3" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title fs-3">Thanks for choosing us</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="fs-4">But sorry, our team is busy. If you want urgent service then leave your info in contact section. Our team will contact us shortly. Thank You.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary fs-4" data-bs-dismiss="modal">OK</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4: Graphic Design -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" data-aos="fade-right" data-aos-offset="300">
+                        <div class="card-header text-center fs-3">
+                            <i class="fa-solid fa-pen-fancy"></i> Graphic Design
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                Book Here!
+                              </button>
+                              <div class="modal" id="exampleModal4" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title fs-3">Thanks for choosing us</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="fs-4">But sorry, our team is busy. If you want urgent service then leave your info in contact section. Our team will contact us shortly. Thank You.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary fs-4" data-bs-dismiss="modal">OK</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 5: Cloud Computing -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card bg-primary text-light">
+                        <div class="card-header text-center fs-3">
+                            <i class="fa-brands fa-aws"></i> Cloud Computing
+                        </div>
+                        <div class="card-body" data-aos="flip-right" data-aos-offset="300">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                Book Here!
+                              </button>
+                              <div class="modal" id="exampleModal5" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title fs-3">Thanks for choosing us</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="fs-4">But sorry, our team is busy. If you want urgent service then leave your info in contact section. Our team will contact us shortly. Thank You.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary fs-4" data-bs-dismiss="modal">OK</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 6: Cyber Security -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card" data-aos="fade-left" data-aos-offset="300">
+                        <div class="card-header text-center fs-3">
+                            <i class="fa-solid fa-shield text-center"></i> Cyber Security
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                Book Here!
+                              </button>
+                              <div class="modal" id="exampleModal6" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title fs-3">Thanks for choosing us</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="fs-4">But sorry, our team is busy. If you want urgent service then leave your info in contact section. Our team will contact us shortly. Thank You.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary fs-4" data-bs-dismiss="modal">OK</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- teams -->
+        <div class="container custom-services my-5 bg-light pb-2" id="teams">
+            <h1 class="text-center border-bottom">Our <span class="text-primary">Teams</span></h1>
+            <div class="row my-5 p-1 ">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="250" >
+                        <img src="unique.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail mx-auto mt-2 p-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-primary fs-3">Unique Shrestha</h5>
+                          <p class="card-text text-center fs-5">SEO Analyst / Project Manager<br>
+                            Experience - 4 years
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="250">
+                        <img src="sujal.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail mx-auto mt-2 p-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-primary fs-3">Sujal Shrestha</h5>
+                          <p class="card-text text-center fs-5">Full Stack Developer<br>
+                            Experience - 5 years
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="250">
+                        <img src="ravi.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail mx-auto mt-2 p-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-primary fs-3">Ravi Chalise</h5>
+                          <p class="card-text text-center fs-5">Developer / Designer<br>
+                            Experience - 3 years
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 mb-4 col-12">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="250">
+                        <img src="shekharr.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail mx-auto mt-2 p-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-primary fs-3">Shekhar Paudel</h5>
+                          <p class="card-text text-center fs-5">Software Engineer<br>
+                            Experience - 1 years
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 mb-4 col-12">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="250" >
+                        <img src="subash.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail mx-auto mt-2 p-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center text-primary fs-3">Subash Chaudhary</h5>
+                          <p class="card-text text-center fs-5">DevOops Engineer<br>
+                            Experience - 2 years
+                        </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Contact -->
+        <div class="container  bg-light pb-2" id="contact">
+            <h1 class="text-center border-bottom">Contact <span class="text-primary">Us</span></h1>
+            <div class="row my-5 p-1">
+                <div class="col col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" data-aos-offset="250">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label fs-4">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label fs-4">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label fs-4">Phone No.</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput2">
+                          </div>
+                          <!-- modal -->
+                          <!-- Button trigger modal -->
+<!-- Button to trigger the modal -->
+<!-- Button to trigger the modal -->
+<button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactsx">
+  Submit
+</button>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Show the modal
+    var modal = new bootstrap.Modal(document.getElementById('contactsx'));
+    modal.show();
+  });
+</script>
+
+<div class="modal fade" id="contactsx" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Thanks for choosing us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We will contact you soon...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+                    </form>
+                </div>
+                <div class="col  col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-left" data-aos-offset="250">
+                    <img class="img-fluid d-md-block d-none " src="contact us.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <div class="container bg-primary text-light py-4">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <h2><u>Contact Information</u></h2>
+                    <p class="fs-5 text-center">
+                        UniQuE <span class="text-dark">TecHub</span><br>
+                        Address - Gwarko, Lalitpur <br>
+                        9883055292 <br>
+                        <a href="mailto:uniquetechub@gmail.com" class="text-light">uniquetechub@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <h2 class="text-center"><u>Links</u></h2>
+                    <ul class="list-unstyled fs-5 text-center">
+                        <li><a href="terms.html" class="text-light">Terms of Service</a></li>
+                        <li><a href="privacy.html" class="text-light">Privacy Policy</a></li>
+                        <li><a href="careers.html" class="text-light">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <h2 class="text-center"><u>Social Media</u></h2>
+                    <ul class="list-unstyled fs-5 text-center">
+                        <li><a href="#" class="text-light"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#" class="text-light"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#" class="text-light"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#" class="text-light"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center fs-5">
+                    <p>&copy; <span id="currentYear"> 2024 </span> UniQuE TecHub. All Rights Reserved.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col text-center fs-3">
+                    Developed by Unique <span class="text-dark">Shrestha</span> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+        <!-- Bootstrap Bundle with Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>

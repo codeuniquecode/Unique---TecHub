@@ -1,0 +1,39 @@
+.container, .container-fluid{
+    font-family: "Dancing Script", cursive;
+}
+.carousel-item img{
+    height: auto;
+    width: 100%;
+     object-fit: cover; /* Preserve aspect ratio; cover entire container */
+     object-position: center; /*Center the image within the container */
+}
+li{
+    margin-right: 15px;
+}
+/* .custom-img{
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+    width: 100%;
+} */
+.custom-para{
+    text-align: justify;
+}
+.custom-link{
+    font-weight: bolder;
+}
+.card img{
+    min-width: 50%;
+    max-height: 400px;
+    height:60% ;
+    width:60% ;
+}
+.custom-services,.custom-nav{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    font-weight: bolder;
+}
